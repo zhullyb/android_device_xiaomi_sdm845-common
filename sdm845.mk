@@ -389,3 +389,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+RODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.dataroaming=true
